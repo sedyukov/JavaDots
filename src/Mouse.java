@@ -7,6 +7,7 @@ public class Mouse extends MouseAdapter {
     public void mousePressed(MouseEvent e){
         xCoord = e.getX();
         yCoord = e.getY();
+        System.out.println(xCoord+" "+yCoord);
     }
     @Override
     public void mouseReleased(MouseEvent e){
